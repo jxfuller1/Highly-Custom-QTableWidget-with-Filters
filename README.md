@@ -17,9 +17,9 @@ This was built with a manufacturing mindset for trackable work on what's been ac
 
 
 
-**** One thing to note, because im using QTableWidget, beyond about 20,000 cells, it starts to become to slow to really be usable.   So if the work you are trying to do is smaller than that, or you are able to break it up into smaller chunks, this will work great!
+ One thing to note, because im using QTableWidget, beyond about 20,000 cells, it starts to become to slow to really be usable.   So if the work you are trying to do is smaller than that, or you are able to break it up into smaller chunks, this will work great!
 
-I'm in the process of making a new one that uses QtableView and QAbstractTableModel to handle much larger datasets, but it is significantly more complicated.***
+I'm in the process of making a new one that uses QtableView and QAbstractTableModel to handle much larger datasets, but it is significantly more complicated.
 
 
 
