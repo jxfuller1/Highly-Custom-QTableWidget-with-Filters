@@ -13,8 +13,17 @@ c)   Supports columns with QCheckboxes
 d)   The sub tablewidget rows are clickable so that data can be changed on them  (the sub table widgets cells need to be non-editable, that code needs to be added still).
 
 
-This was built with a manufacturing mindset for trackable work on what's been accomplished or not accomplished and for manipulation of data.   This can easily be adapted to populate from a 
-SQL Query and have the checkbox states or cell value changes as they are changed send a SQL query to update the corresponding value on a SQL table.
+This was built with a manufacturing mindset for trackable work on what's been accomplished or not accomplished and for manipulation of data.   This can easily be adapted to populate from a SQL Query and have the checkbox states or cell value changes as they are changed send a SQL query to update the corresponding value on a SQL table.
+
+
+
+**** One thing to note, because im using QTableWidget, beyond about 20,000 cells, it starts to become to slow to really be usable.   So if the work you are trying to do is smaller than that, or you are able to break it up into smaller chunks, this will work great!
+
+I'm in the process of making a new one that uses QtableView and QAbstractTableModel to handle much larger datasets, but it is significantly more complicated.***
+
+
+
+
 
 ![1](https://github.com/jxfuller1/QTableWidget-with-Filters-/assets/123666150/f1f21acd-2325-4cc4-904a-11242df400ed)
 
