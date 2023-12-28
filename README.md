@@ -1,10 +1,15 @@
 This is a QTableWidget that supports advanced features using a custom QHeaderView
 
 a)   "Expandable" rows that contain a QTableWidget      (really just hiding/showing the odd rows that have a Qtablewidget)
+
 b)   QComboboxes in the headers for advanced filtering   (these will update automatically as data is changed in the columns)
+
 c)   Custom Sorting that takes into account the rows with Qtablewidgets, so that the rows are always paired together.
+
 d)   Movable sections
+
 c)   Supports columns with QCheckboxes
+
 d)   The sub tablewidget rows are clickable so that data can be changed on them  (the sub table widgets cells need to be non-editable, that code needs to be added still).
 
 
