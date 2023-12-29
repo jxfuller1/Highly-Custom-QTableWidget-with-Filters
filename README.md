@@ -14,6 +14,7 @@ d)   The sub tablewidget rows are clickable so that data can be changed on them 
 
 
 This was built with a manufacturing mindset for trackable work on what's been accomplished or not accomplished and for manipulation of data.   This can easily be adapted to populate from a SQL Query and have the checkbox states or cell value changes as they are changed send a SQL query to update the corresponding value on a SQL table.
+Which would allow for collaboration of work in real time and be on a SQL database (which then other programs in the manufacturing environment could pull from).
 
 
 
