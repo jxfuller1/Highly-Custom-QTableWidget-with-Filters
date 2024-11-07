@@ -1,5 +1,11 @@
 <b> NOTE: This program is outdated, i may end up removing it.  I have superseded this by creating a completely new one that is much more performant with a lot more functionality, see my repository.</b>
 
+<b>The one that supersedes this can be installed with</b>:
+<pre>pip install ExtendedQtableview</pre>
+
+
+
+
 
 This is a QTableWidget that supports advanced features using a custom QHeaderView
 
