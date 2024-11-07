@@ -1,4 +1,4 @@
-<b> NOTE: This program is outdated, i may end up removing it.  I have superseded this by creating a completely new one that is much more performant with a lot more functionality, see my repository.  It's not quite finished yet but is nearing completion.</b>
+<b> NOTE: This program is outdated, i may end up removing it.  I have superseded this by creating a completely new one that is much more performant with a lot more functionality, see my repository.</b>
 
 
 This is a QTableWidget that supports advanced features using a custom QHeaderView
